@@ -18,7 +18,7 @@ st.markdown("---")
 # LOAD REAL DATASET
 # ---------------------------------------------------------
 # Replace your CSV file name here
-df = pd.read_csv("./train_u6lujuX_CVtuZ9i (1).csv")
+df = pd.read_csv("./loan_data.csv")
 
 # Required columns
 required_cols = ["Self_Employed", "ApplicantIncome", "LoanAmount", "Credit_History", "Loan_Status"]
